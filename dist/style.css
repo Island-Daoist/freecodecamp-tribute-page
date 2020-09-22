@@ -1,0 +1,44 @@
+body {
+  background: url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/bedge_grunge.png");
+  font-family: "Fondamento", cursive;
+  color: rgba(0,0,0,0.9);
+}
+
+#title {
+  text-align: center;
+}
+
+#main {
+  display: grid;
+  grid-template-column: auto;
+  justify-items: center;
+  align-items: center;
+}
+
+#img-div {
+  display: grid;
+  padding: 1em 15em 1em 15em;
+  justify-items: center;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+}
+
+#tribute-info {
+  text-align: center;
+}
+
+#tribute-info ul li {
+  margin: 15px 150px 15px 150px;
+}
+
+#tribute-link:hover {
+  color: rgba(55, 100, 235, 0.9)
+}
+
+footer {
+  text-align: center;
+  font-size: 0.75em;
+}
